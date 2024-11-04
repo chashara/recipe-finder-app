@@ -17,6 +17,7 @@ body {
   width: 100%; /* Full width of the screen */
   margin: 0;
   padding: 1rem 2rem; /* Slight padding on sides */
+  flex: 1;
 }
 
 .home-container {
@@ -228,3 +229,4 @@ button:hover {
 .get-started-btn:hover {
   background-color: rgb(82, 82, 211);
 }
+

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import RecipeSearch from './components/RecipeSearch';
 import RecipeList from './components/RecipeList';
 import { fetchRecipes } from './services/recipeService';
+import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
         {loading && <p>Loading...</p>}
         {error && <p>{error}</p>}
         <RecipeList recipes={recipes} />
+        <Footer />
       </div>
     </div>
   );
